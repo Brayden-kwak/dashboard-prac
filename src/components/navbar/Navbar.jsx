@@ -8,7 +8,7 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <div className="navbar">
       <div className="wrapper">
@@ -50,3 +50,5 @@ export const Navbar = () => {
     </div>
   )
 }
+
+export default Navbar;

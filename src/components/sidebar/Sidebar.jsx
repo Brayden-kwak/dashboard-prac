@@ -12,7 +12,7 @@ import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import GroupOutlinedIcon from '@mui/icons-material/GroupOutlined';
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 
-export const Sidebar = () => {
+const Sidebar = () => {
   return (
     <div className="sidebar">
         <div className='top'>
@@ -79,3 +79,5 @@ export const Sidebar = () => {
     </div>
   )
 }
+
+export default Sidebar;
